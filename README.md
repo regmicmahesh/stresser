@@ -49,6 +49,14 @@ Usage of ./stresser:
 
 The help command is self explanatory.
 
+# Example
+
+Stress testing http://localhost with 1000 hits on 20 threads.
+
+```bash
+stresser -u http://localhost -c 1000 -t 20
+```
+
 # Contribution
 
 Every minor/major contribution is welcomed and highly appreciated.
